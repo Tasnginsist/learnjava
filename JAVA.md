@@ -470,6 +470,24 @@ public class JdbcUtil {
 
 3.传输协议
 
+## Html
+
+## CSS
+
+## JavaScript
+
+## BootStrap
+
+## Xml
+
+## Jquery
+
+## Ajax
+
+## json
+
+
+
 ## Tomcat
 
 ## Servlet
@@ -1296,7 +1314,89 @@ pageContext：获取其他八个内置对象
 
 ​     *  ${pageContext.request.contextPath}:动态获取虚拟目录
 
-## JSTL标签
+## JSTL（jsp标准标签库）
+
+作用：用于简化和替换jsp页面上的java代码
+
+
+
+使用：
+
+1.导入jstl相关jar包
+
+2.引入标签库：<%@taglib=" "%>
+
+3.使用
+
+
+
+常用jstl标签：
+
+1.if：<c:if test="">\< /c:if \>
+
+​     * test为必须属性，用于接收boolean表达式，为true则显示if标签体内容，反之则不显示
+
+​     *一般情况下结合el表达式使用
+
+​     *没有else情况
+
+2.choose：相当于java代码的switch语句
+
+​       *使用choose标签声明：相当于switch声明
+
+​       *使用when标签判断：相当于case
+
+​       *使用otherwise标签做其他情况的声明：相当于default
+
+3.foeach：相当于java代码的for语句
+
+​     1）完成重复操作
+
+​              属性：begin：开始值
+
+​                         end：结束值
+
+​                         var：变量名
+
+​                         step：步长
+
+​                         varStatus：循环状态对象
+
+​                                 *index：容器中元素的索引，从0开始
+
+​                                 *count：循环次数，从1开始
+
+​        2）遍历容器：
+
+​                    属性：item：容器对象
+
+​                                var：容器中元素的临时变量
+
+​                                varStatus：循环状态对象
+
+​                                         *index：容器中元素的索引，从0开始
+
+​                                         *count：循环次数，从1开始     
+
+# Redis
+
+​             
+
+# Maven
+
+# Mybatis
+
+​                 2.end：结束值
+
+​                 3.var：变量名
+
+​                 4.step：步长
+
+​                 5.varStatus：循环状态对象
+
+​                           *index：容器中元素的索引，从0开始
+
+​                           *
 
 # Mybatis
 
